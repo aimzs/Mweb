@@ -1,0 +1,73 @@
+#baseModel{
+    width: 100%!important;
+    overflow: hidden;
+	padding-left:20px;
+}
+#baseModel li{
+    width: 24%!important;
+    margin-right: 0!important;
+    box-sizing: border-box;
+    height: auto;
+    border-right: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+/*#baseModel li:hover{*/
+   /**/
+    /*border-right: 0 none;*/
+    /*transform: translateY(3px);*/
+/*}*/
+#baseModel li:nth-of-type(4n){
+    border-right: 0 none;
+}
+#baseModel .circle{
+    width: 196px;
+    height: 196px;
+    margin:0 auto;
+    position: relative;
+    transition: all 5s;
+	border-radius:50%;
+}
+
+
+
+#baseModel .circle img{
+    border-radius: 50%;
+    display: none;
+    margin-top:19px;
+    margin-left: 18px;
+}
+#cvs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+
+#baseModel .aboutTeacher h6{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+#baseModel .aboutTeacher .con1{
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: all .5s;
+}
+
+#baseModel .li:hover{
+    transition:box-shadow .15s ease-in;
+	box-shadow: 0 30px 30px rgba(0,0,0,.16);
+}
+#baseModel .li:hover #cvs{
+	 transition:box-shadow .15s ease-in;
+	 box-shadow: 0 30px 30px rgba(0,0,0,.16);
+	 border-radius:50%;
+	}
+#baseModel .li:hover .aboutTeacher .con1{
+    color: #188eee;
+}

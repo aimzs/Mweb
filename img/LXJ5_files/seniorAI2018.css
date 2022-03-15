@@ -1,0 +1,723 @@
+.w1200 {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0!important;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}
+.hidden {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+* {
+  box-sizing: border-box;
+}
+.cursor {
+  cursor: pointer;
+}
+.transtion {
+  transition: all .3s;
+}
+.delay {
+  transition-delay: .4s;
+}
+.banner-seniorAI {
+  width: 100%;
+  height: 7.39rem;
+  background: url("../../../images/job_seniorAI/2018/bg-2018_02.jpg") no-repeat center center;
+  padding-top: 118px;
+  -webkit-perspective-origin: center;
+  perspective-origin: center;
+  -webkit-perspective: 150;
+  perspective: 150;
+  overflow: hidden;
+}
+.banner-seniorAI h1 {
+  overflow: hidden;
+  margin-bottom: 0.3rem !important;
+}
+.banner-seniorAI .tit-2018 {
+  display: inline-block;
+  transition: all 2s;
+}
+.banner-seniorAI .tit-2018 {
+  transform: translateY(-200px);
+}
+.banner-seniorAI .leading {
+  transform: translateZ(190px);
+  transition: all 2s;
+}
+.banner-seniorAI .ufo {
+  width: 334px;
+  height: 331px;
+  background: url("../../../images/job_seniorAI/ufo.png") no-repeat center center;
+  padding-top: 104px;
+  transform: translateZ(-4204px);
+  transition: all 2s;
+  transition-delay: 2s;
+}
+.banner-seniorAI .annual-salary {
+  transform: translateY(-231px) translateZ(-4204px) scale(0, 0);
+  transition: all 1.5s;
+  transition-delay: 2.8s;
+}
+.pic2018{
+  transform: translateY(400px);
+  transition: all 1.5s;
+}
+.science{
+  transform-origin: 50% 50%;
+  transform: translateY(318px) rotateY(0deg)  scale(.4,.4);
+  transition: all 1.5s;
+}
+.font{
+  transform: translateY(-235px);
+  opacity: 0;
+  transition: all 3s;
+  transition-delay: 1s;
+}
+.nine-year {
+  width: 100%;
+  height: 159px;
+  background: url("../../../images/job_seniorAI/2018/9year_02.jpg") no-repeat center center;
+  padding-top: 50px;
+  padding-right: 15.18%;
+}
+.nine-year .colorful-btn {
+  float: right;
+}
+@media screen and (max-width: 1750px) {
+  .nine-year {
+    padding-right: 9.18%;
+  }
+}
+@media screen and (max-width: 1540px) {
+  .nine-year {
+    padding-right: 3.18%;
+  }
+}
+.colorful-btn {
+  color: #2b479c;
+  font-size: 0.2rem;
+  width: 2.3rem;
+  height: .64rem;
+  line-height: .64rem;
+  text-align: center;
+  background: #f4da25;
+  position: relative;
+  z-index: 2;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: color 0.6s;
+  overflow: hidden;
+  display: block;
+  text-decoration: none!important;
+  border-radius: 8px;
+  border: 0 none;
+}
+.colorful-btn:hover {
+  color: #fff;
+}
+.colorful-btn::after,
+.colorful-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 103%;
+  background: #2affed;
+  left: 0;
+  transition: transform 0.2s;
+  z-index: -2;
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  border: 0 none;
+}
+.colorful-btn::before {
+  background: #188eee;
+  border: 1px solid #188eee;
+  bottom: 202%;
+  transition: transform 0.6s;
+}
+.colorful-btn:hover::after {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.colorful-btn:hover::before {
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+  z-index: -1;
+}
+.colorful-btn:hover::after {
+  -webkit-transition-delay: 0.175s;
+  transition-delay: 0.175s;
+}
+.colorful-btn:hover::before {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+.biling {
+  width: 100%;
+  height: 712px;
+  background: #141d43;
+  perspective: 150;
+  -webkit-perspective: 150;
+  position: relative;
+}
+.biling .top-city {
+  width: 100%;
+  height: 343px;
+  background: url("../../../images/job_seniorAI/2018/top-city.jpg") no-repeat center center;
+}
+.biling .bottom-city {
+  width: 100%;
+  height: 369px;
+  background: url("../../../images/job_seniorAI/2018/bottom-city.jpg") no-repeat center center;
+}
+.biling h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 88px;
+  padding-bottom: 43px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.biling h1 .blue {
+  color: #40faff;
+}
+.biling .center-content {
+  position: absolute;
+  top: 0;
+  left: 360px;
+  z-index: 3;
+  padding-top: 197px;
+}
+.biling .center-content .biling-ul {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+.biling .center-content .biling-ul li {
+  position: absolute;
+  width: 130px;
+  height: 46px;
+  line-height: 46px;
+  display: block;
+  margin: 0 auto;
+  color: #40faff;
+  font-size: 22px;
+  background: url("../../../images/job_seniorAI/2018/btn-bg.png") no-repeat center center;
+  text-align: center;
+  animation: fight2 5s linear infinite 0S;
+}
+.biling .center-content .biling-ul .gradient1 {
+  left: 0;
+  top: 203px;
+}
+.biling .center-content .biling-ul .gradient2 {
+  left: 163px;
+  top: 97px;
+}
+.biling .center-content .biling-ul .gradient3 {
+  left: 227px;
+  top: 0;
+}
+.biling .center-content .biling-ul .gradient4 {
+  left: 333px;
+  top: 169px;
+}
+.biling .center-content .biling-ul .gradient5 {
+  left: 402px;
+  top: 394px;
+}
+.biling .center-content .biling-ul .gradient6 {
+  left: 630px;
+  top: 144px;
+}
+.biling .center-content .biling-ul .gradient7 {
+  left: 688px;
+  top: 342px;
+}
+.biling .center-content .biling-ul .gradient8 {
+  left: 779px;
+  top: 216px;
+}
+.biling .center-content .biling-ul .gradient9 {
+  right: 120px;
+  top: 86px;
+}
+.biling .center-content .biling-ul .gradient10 {
+  right: 140px;
+  top: 327px;
+}
+.biling .center-content .biling-ul .gradient11 {
+  right: 0;
+  top: 273px;
+}
+.leader {
+  overflow: hidden;
+}
+.leader h1 {
+  padding-top: 110px;
+  padding-bottom: 130px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.leader h1 .daka {
+  color: #00adcc;
+}
+.leader h1 .talk {
+  color: #113567;
+}
+.study-plan {
+  background: #f2f2f2;
+  padding-bottom: 90px;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective-origin: center;
+  -moz-perspective-origin: center;
+  -ms-perspective-origin: center;
+  -webkit-perspective-origin: center;
+}
+.study-plan h1 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bolder;
+  color: #30bceb;
+}
+.enviorment h1{
+  color: #40faff!important;
+}
+.study-plan h1 .blue {
+  color: #00adcc;
+}
+.study-plan h1 .achievement{
+  color: #123262;
+}
+.study-plan .colorful-btn {
+  background: #00adcc;
+}
+.study-plan .plan1 {
+  margin-bottom: 100px;
+}
+.study-plan .plan2 {
+  margin-bottom: 70px;
+}
+.study-plan .box {
+  margin-top: 104px;
+}
+.study-plan .colorful-btn {
+  clear: both;
+  color: #ffffff;
+}
+.good {
+  width: 100%;
+  height: 783px;
+  background: url("../../../images/job_seniorAI/good.jpg") no-repeat center center;
+}
+.good h1 {
+  padding-top: 90px;
+  padding-bottom: 88px;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.good .carousel {
+  position: relative;
+  height: 520px;
+}
+.good .carousel .pc {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 666px;
+  height: 419px;
+  background: url("../../../images/job_seniorAI/pc.png") no-repeat center center;
+  position: relative;
+}
+.good .carousel .pc .flowbox {
+  position: absolute;
+  overflow: hidden;
+  width: 546px;
+  height: 341px;
+
+  top: 28px;
+  left: 73px;
+  cursor: pointer;
+}
+.good .carousel .pc .pc-long {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.good .carousel .mobile {
+  position: absolute;
+  left: 572px;
+  top: 0;
+  width: 242px;
+  height: 512px;
+  background: url("../../../images/job_seniorAI/mobile.png") no-repeat center center;
+}
+.good .carousel .mobile .flowbox {
+  position: absolute;
+  overflow: hidden;
+  width: 204px;
+  height: 329px;
+  background: #add8e6;
+  top: 104px;
+  left: 17px;
+}
+.good .carousel .mobile .flowbox .mobile-long {
+  width: 201%;
+}
+.good .classmates {
+  width: 305px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 124px;
+}
+.good .classmates p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 32px;
+}
+.good .classmates .empty-btn {
+  padding: .17rem .68rem;
+  border: 2px solid #fffa00;
+  border-radius: 3px;
+  text-align: center;
+  color: #fffa00;
+  font-size: 0.2rem;
+  display: block;
+  position: relative;
+  z-index: 2;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  transition: color 0.6s;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.good .classmates .empty-btn:hover {
+  color: #188eee;
+  border: 0 none;
+  text-decoration: none!important;
+}
+.good .classmates .empty-btn::before,
+.good .classmates .empty-btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 102%;
+  border: 2px solid #2affed;
+  color: #2affed;
+  left: 0;
+  transition: transform 0.2s;
+  z-index: -2;
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.good .classmates .empty-btn::before {
+  border: 2px solid #188eee;
+  bottom: 202%;
+  transition: transform 0.6s;
+  color: #188eee;
+}
+.good .classmates .empty-btn:hover::after {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.good .classmates .empty-btn:hover::before {
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+  z-index: -1;
+}
+.good .classmates .empty-btn_btn:hover::after {
+  -webkit-transition-delay: 0.175s;
+  transition-delay: 0.175s;
+}
+.good .classmates .empty-btn_btn:hover::before {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+#baseModel {
+  overflow: hidden;
+}
+.directive {
+  width: 100%;
+  height: 1100px;
+  background: url("../../../images/job_seniorAI/blue_02.jpg") no-repeat center center;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  overflow: hidden;
+}
+.directive h1 {
+  font-size: 60px;
+  color: #ffffff;
+  padding-top: 90px;
+  padding-bottom: 44px;
+}
+.directive h1 .blue {
+  color: #40faff;
+}
+.directive h2 {
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 19px;
+}
+.directive .box {
+  padding-top: 85px;
+}
+.directive .box .colorful-btn {
+  background: #ffcc00;
+  color: #fff;
+}
+
+.directive .select .aaaa {
+  height: 70px;
+  margin-bottom: 12px;
+}
+.directive .select .aaaa .classification {
+  width: 20%;
+  color: #00e8ee;
+  font-size: 24px;
+  background: #ffffff;
+  height: 66px;
+  position: relative;
+}
+.directive .select .aaaa .classification .white-font {
+  color: #ffffff;
+}
+.directive .select .aaaa .classification span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 66px;
+  z-index: 2;
+  line-height: 66px;
+  cursor: pointer;
+}
+.directive .select .aaaa .classification .triggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+.directive .select {
+  padding-bottom: .68rem;
+}
+.directive .select h1 {
+  padding-top: .9rem;
+  padding-bottom: 0.80rem;
+  color: #fff;
+  font-size: 60px;
+  margin-top: 0;
+}
+.directive .select li {
+  background: #fff;
+  color: #666;
+  font-size: .14rem;
+  line-height: 40px;
+  padding-left: 0.44rem;
+  border-top: 2px solid #143668;
+}
+.directive .select li span {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.directive .select .yellow-tit {
+  background: #ffcc00;
+  color: #ffffff;
+  font-size: .16rem;
+}
+.directive .select .name {
+  width: 10%;
+}
+.directive .select .schooling {
+  width: 8.75%;
+}
+.directive .select .state {
+  width: 13.83333333%;
+}
+.directive .select .major {
+  width: 21.25%;
+}
+.directive .select .employ {
+  width: 15%;
+}
+.directive .select .salsry {
+  width: 10.25%;
+  background: #ffcc00;
+  color: #fff;
+  text-align: center;
+}
+.directive .select .address {
+  width: 8.33333333%;
+}
+.directive .select .date {
+  width: 8.66666667%;
+}
+.directive .select #win {
+  width: 100%;
+  height: 503px;
+  overflow: hidden;
+  position: relative;
+}
+.directive #win .olol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+.directive .olol .details {
+  background: #ffffff;
+}
+@keyframes fight2 {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  25% {
+    transform: translateY(-5px) translateX(-5px);
+  }
+  50% {
+    transform: translateY(0px) translateX(0px);
+  }
+  75% {
+    transform: translateY(5px) translateX(5px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}
+.teacher-join .vue-teacher {
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.teacher-join .vue-teacher .teacher:nth-of-type(4n+1){
+  margin-left: 0px;
+}
+.teacher-join .vue-teacher .teacher {
+  width: 24%!important;
+  float: left;
+  margin-left: 6px;
+  margin-right: 6px!important;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .3s;
+  height: 470px!important;
+  margin-bottom: 37px;
+}
+.teacher-join .vue-teacher .teacher span {
+  display: block;
+  color: #333333;
+  font-size: 0.14rem;
+  line-height: 0.22rem;
+  text-align: left;
+}
+.teacher-join .vue-teacher .teacher span:first-of-type {
+  margin-bottom: 0.1rem;
+}
+.teacher-join .vue-teacher .teacher .t2 {
+  text-indent: 2em;
+}
+/* .teacher-join .vue-teacher .teacher:hover {
+  border: 3px solid #942cff;
+} */
+.teacher-join .vue-teacher .div1 {
+  width: 100%;
+  height: 2.93rem;
+  background-size: 100% 100%;
+  background-position: center center;
+  transition: all .3s;
+}
+.teacher-join .vue-teacher .div2 {
+  border-left: 2px solid #c8c7c7;
+  height: 1.64rem;
+  padding-top: 0.19rem;
+  padding-left: 0.13rem;
+  padding-right: 0.11rem;
+}
+
+.teacher-join .vue-teacher {
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.teacher-join .vue-teacher .teacher {
+  width: 24%;
+  float: left;
+  margin-left: 16px;
+  margin-right: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .3s;
+  position: relative;
+}
+.teacher-join .vue-teacher .div3{
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  border: 5px solid #26bbee!important;
+  opacity: 0;
+  -webkit-transition: property 0.3s ;
+  -moz-transition: property 0.3s ;
+  transition: property 0.3s ;
+}
+.teacher-join .vue-teacher .teacher:hover .div3{
+  opacity: 1;
+}
+
+
+.teacher-join .vue-teacher .teacher span {
+  display: block;
+  color: #333333;
+  font-size: 0.14rem;
+  line-height: 0.22rem;
+  text-align: left;
+}
+.teacher-join .vue-teacher .teacher span:first-of-type {
+  margin-bottom: 0.1rem;
+}
+.teacher-join .vue-teacher .teacher .t2 {
+  text-indent: 2em;
+}
+/* .teacher-join .vue-teacher .teacher:hover {
+  border: 3px solid #942cff;
+} */
+.teacher-join .vue-teacher .div1 {
+  width: 100%;
+  height: 2.93rem;
+  background-size: 100% 100%;
+  background-position: center center;
+  transition: all .3s;
+}
+.teacher-join .vue-teacher .div2 {
+  border-left: 2px solid #c8c7c7;
+  height: 1.64rem;
+  padding-top: 0.19rem;
+  padding-left: 0.13rem;
+  padding-right: 0.11rem;
+}
